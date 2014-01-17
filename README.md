@@ -3,6 +3,9 @@ Gmail-Whitelist-Script
 
 A Google Apps Script used to move messages from whitelisted addresses back to the inbox
 
+
+The motivation for this script is that Gmail doesn't have any better way of whitelisting email addresses other then adding them to your address book. I wanted to whitelist addresses but I didn't want every newsletter/subscription/notification email address cluttering up my gmail which then gets synced to my phone/tablet etc.
+
 This script runs as a Google Drive GScript that is attached to an hourly trigger.
 It is best used if you like to keep your spam box empty and or at a low volume.
 It uses the ScriptDB to store a list of whitelisted email addresses.
