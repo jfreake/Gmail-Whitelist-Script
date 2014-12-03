@@ -1,6 +1,9 @@
 Gmail-Whitelist-Script
 ======================
 
+*** This Script has a deprecated component. (ScriptDB) I have re-written it to store whitelists and blacklists as well as logging in a google sheet. Update coming soon.
+
+
 A Google Apps Script used to move messages from whitelisted addresses back to the inbox
 
 
